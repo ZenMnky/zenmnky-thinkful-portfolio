@@ -1,0 +1,100 @@
+
+/*=============================================
+=            Base Styles            =
+=============================================*/
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+img.rounded {
+  border-radius: 8px;
+}
+
+main p {
+  line-height: 1.5em;
+}
+
+.container {
+  width: 100%;
+}
+
+.group {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-grow: 1;
+  flex-basis: 20%;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+}
+
+/*=============================================
+=            Section Specific Styles            =
+=============================================*/
+
+/*----------  Header  ----------*/
+header {
+  background-color: #6b655b;
+  margin-bottom: 40px;
+  display: block;
+}
+
+header h1 {
+  font-size: 4em;
+  padding: 20px 0;
+  text-align: center;
+  color: #eff0e5;
+}
+
+/*----------  Articles  ----------*/
+#intro, #portfolio, #contact {
+  margin-bottom: 120px;
+}
+
+#about {
+  background-color: #c5c0b8;
+  padding: 20px 0 30px 0;
+  margin: 120px 0;
+}
+
+#intro img {
+  max-width: 50vh;
+}
+
+#about img {
+  max-width: 40vw;
+}
+/*----------  Footer  ----------*/
+
+
+
+/*=============================================
+=            Media Queries            =
+=============================================*/
+@media all and (min-width: 800px){
+  .container{
+    width: 80%;
+    margin: auto;
+  }
+  .group {
+    flex-direction: column;
+  }
+}
+
+
