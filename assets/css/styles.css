@@ -114,17 +114,12 @@ nav ul {
 }
 
 nav ul li a {
-  padding-right: 20px;
+  margin-right: 20px;
   text-decoration: none;
 }
 
 nav ul li:last-child a {
-  padding-right: 0px;
-}
-
-nav a:hover {
-  background-color: cornflowerblue;
-  transition: background-color .5s;
+  margin-right: 0px;
 }
 
 
@@ -211,11 +206,6 @@ form button {
   flex-direction: column;
   }
 
-.footer-group a:hover {
-  background-color: cornflowerblue;
-  transition: background-color .5s;
-}
-
 .footer-group .fa {
   font-size: 2em;
   color: whitesmoke;
@@ -250,6 +240,10 @@ form button {
     padding: 0;
   }
 
+  nav a:hover, .footer-group a:hover {
+    background-color: cornflowerblue;
+    transition: background-color .5s;
+  }
 
 }
 
