@@ -198,15 +198,18 @@ form button {
   margin: 120px 0 0 0;
 }
 
+
 .footer-group {
   justify-content: center;
+  text-align: center;
 }
 
 .footer-group a {
   padding: .5em;
   color: white;
   text-decoration: none;
-}
+  flex-direction: column;
+  }
 
 .footer-group a:hover {
   background-color: cornflowerblue;
