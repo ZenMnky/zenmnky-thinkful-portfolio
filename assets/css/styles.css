@@ -54,7 +54,7 @@ button {
   border-radius: 16px;
   padding: 5px 10px;
   border: 1px solid;
-  
+
 }
 
 /*=============================================
@@ -255,6 +255,11 @@ form button {
   .footer-group a:hover {
     border-radius: 8px;
     background-color: cornflowerblue;
+    transition: background-color .5s;
+  }
+
+  button:hover {
+    background-color: darkgrey;
     transition: background-color .5s;
   }
 
