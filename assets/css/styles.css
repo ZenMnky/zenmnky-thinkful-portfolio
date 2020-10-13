@@ -40,7 +40,7 @@ h2 {
   text-align: center;
 }
 
-main h2, h3 {
+main h2, main h3, main p, button {
   font-family: 'Raleway', sans-serif;
 }
 
@@ -50,6 +50,12 @@ main p {
   font-size: 18px;
 }
 
+button {
+  border-radius: 16px;
+  padding: 5px 10px;
+  border: 1px solid;
+  
+}
 
 /*=============================================
 =            Flex Container/Items - General            =
@@ -130,7 +136,7 @@ nav ul li:last-child a {
 
 
 /*----------  Articles  ----------*/
-#intro, #portfolio, #contact {
+#intro, #projects, #contact {
   margin-bottom: 120px;
 }
 
