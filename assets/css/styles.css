@@ -150,11 +150,6 @@ nav ul li:last-child a {
   margin: 120px 0;
 }
 
-#about img {
-  max-width: 40vw;
-}
-
-
 /*----------  Contact Form  ----------*/
 fieldset {
   padding: 10px 12px;
